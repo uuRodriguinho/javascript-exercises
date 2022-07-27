@@ -10,6 +10,7 @@ const removeFromArray = function (array, ...numToRemove) {
     } */
 
     // serches the index of the value in the array
+    // if the search don't find the value don't do nothing
     // if the value is greater than 0, remove it from the array
     let index = array.indexOf(numToRemove[i]);
     if (index > -1) {
